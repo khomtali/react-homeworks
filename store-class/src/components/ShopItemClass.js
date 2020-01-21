@@ -30,8 +30,4 @@ export default class ShopItemClass extends React.Component {
       </>
     );
   };
-}
-
-Item.propTypes = {
-  item: PropTypes.instanceOf(Item),
 };
