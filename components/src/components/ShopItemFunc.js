@@ -26,6 +26,6 @@ export default function ShopItemFunc(props) {
     );
   }
   
-  Item.propTypes = {
+  ShopItemFunc.propTypes = {
     item: PropTypes.instanceOf(Item),
   };
