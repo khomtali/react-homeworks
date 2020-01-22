@@ -10,7 +10,7 @@ function App() {
       <ServiceAdd />
       <ServiceList />
       {/* <hr />
-      <ServiceAddClassBased /> 
+      <ServiceAddClassBased />
       <ServiceListClassBased /> */}
     </>
   );
