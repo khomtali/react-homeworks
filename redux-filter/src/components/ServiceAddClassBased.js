@@ -28,7 +28,6 @@ class ServiceAddClassBased extends Component {
   }
 }
 
-
 ServiceAddClassBased.propTypes = {
   item: PropTypes.shape({
     name: PropTypes.string,
@@ -42,16 +41,16 @@ const mapStateToProps = (state) => ({
   item: state.serviceAdd,
 });
 
-const mapDispatchToProps = (dispatch) => {
-  return {
-    onChange: (name, value) => dispatch(changeServiceField(name, value)),
-    onSave: (name, price) => dispatch(addService(name, price)),
-  }
-};
+// const mapDispatchToProps = (dispatch) => {
+//   return {
+//     onChange: (name, value) => dispatch(changeServiceField(name, value)),
+//     onSave: (name, price) => dispatch(addService(name, price)),
+//   }
+// };
 
-// const mapDispatchToProps = ({
-//   onChange: changeServiceField,
-//   onSave: addService,
-// });
+const mapDispatchToProps = ({ // make object, if only dispatch
+  onChange: changeServiceField,
+  onSave: addService,
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(ServiceAddClassBased);
