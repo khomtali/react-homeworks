@@ -4,7 +4,7 @@
 
 ### Блок 1. Компоненты
 
-1.1. [Компоненты](https://github.com/netology-code/ra16-homeworks/tree/master/components)
+1.1. [Компоненты](https://github.com/netology-code/ra16-homeworks/tree/master/components) (done)
 
 1.2. [События и состояние](https://github.com/netology-code/ra16-homeworks/tree/master/events-state)
 
@@ -26,7 +26,7 @@
 
 ### Блок 3. Redux - управление состоянием
 
-3.1. [Redux](https://github.com/netology-code/ra16-homeworks/tree/master/redux)
+3.1. [Redux](https://github.com/netology-code/ra16-homeworks/tree/master/redux) (done)
 
 3.1. [Redux и Redux Thunk](https://github.com/netology-code/ra16-homeworks/tree/master/thunk)
 
